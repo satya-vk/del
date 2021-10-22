@@ -1,0 +1,32 @@
+.container{
+  background-image: url("https://cdn.wallpapersafari.com/51/65/xFhVf7.jpg");
+  background-size: cover;
+}
+.heading{
+  text-align:center;
+  color:blue;
+  font-family: 'Roboto Slab', serif;
+}
+.col{
+  margin-top:50px;
+}
+
+.logo{
+  width:30px;
+  height:30px;
+  border-radius:12%;
+}
+.para{
+  display:inline;
+  font-size:20px;
+  margin-left:5px;
+
+}
+.para a{
+  color:white;
+}
+@media screen and (min-width:300){
+  .col{
+    text-align:center;
+  }
+}
